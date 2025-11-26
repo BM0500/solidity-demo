@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "approvr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Value Types/enum.sol": "Task"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Value Types/enum.sol": {
+			"keccak256": "0xe190212f833b9b2f5a4edc81d66b2abb0bc01515d0e13a6792454f06e89f24d2",
+			"urls": [
+				"bzz-raw://659650db5eb7c765600ffd211c561319031f36796be9543604b32f6591f2b9b6",
+				"dweb:/ipfs/QmasF47zgL2h9j5Efrz434qQBaqVomakYAweT92MKAkkEo"
+			]
+		}
+	},
+	"version": 1
+}
